@@ -1,0 +1,15 @@
+{
+    "name": "Bacalhau com Nonio blocker",
+    "version": "1.0",
+    "description": "The simplest nonio tracker blocker",
+    "manifest_version": 2,
+    "content_scripts": [{
+		"matches": [
+			"http://*.pt/*",
+			"https://*.pt/*"
+		],
+		"js": [
+			"index.js"
+		]
+   	}]
+}
